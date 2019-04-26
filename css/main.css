@@ -7,7 +7,7 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
- 
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -102,10 +102,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Company Name form */
 
 
-
-
+/* cursor highlight selected color */
+::selection {
+  background: #60F4D8; /* WebKit/Blink Browsers */
+  color: #ffffff;
+}
+::-moz-selection {
+  background: #60F4D8; /* Gecko Browsers */
+  color: #ffffff;
+}
 
 
 
@@ -197,7 +213,7 @@ textarea {
   clear: both;
 }
 
- 
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -215,7 +231,7 @@ textarea {
     /* Style adjustments for high resolution devices */
 }
 
- 
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -291,5 +307,3 @@ textarea {
         page-break-after: avoid;
     }
 }
-
-
