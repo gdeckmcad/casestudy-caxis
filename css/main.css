@@ -106,6 +106,12 @@ body {
   font-family: 'Muli', sans-serif;
   color: #8B92AB;
   text-align: center;
+  margin: 0 auto;
+}
+
+header {
+  display: inline;
+  width:100%;
 }
 
 h1, h2, h3 {
@@ -120,7 +126,7 @@ h4 {
 }
 
 .bold {
-  font-weight: : 700;
+  font-weight: 700;
   color: #2E3038;
 }
 
@@ -129,7 +135,65 @@ h4 {
   font-weight: 700;
 }
 
+/* buttons */
+
+.tertiary-button {
+  border: 1px solid #8B92AB;
+  border-radius: 20px;
+  display: inline-block;
+  float:right;
+  padding: 0px 16px 2px 16px;
+  margin-right:75px;
+  margin-top:-90px;
+}
+
+.tertiary-button a {
+  color: #8B92AB;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.tertiary-button a:hover {
+
+}
+
 /* Company Name form */
+
+/* main nav */
+
+#main-nav {
+  float: right;
+  margin-right: 75px;
+  margin-top:-50px;
+}
+
+#main-nav ol {
+  list-style: none;
+}
+
+#main-nav li {
+  float: left;
+  padding-left:38px;
+}
+
+#main-nav ol li a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #8B92AB;
+  font-family: 'Muli', sans-serif;
+
+}
+
+#main-nav .selected {
+  color: #2E3038;
+
+}
+
+#main-nav ol li a:hover {
+
+}
 
 
 /* cursor highlight selected color */
@@ -151,6 +215,8 @@ svg {
 #header-logo {
   width: 138px;
   height: 45.79;
+  margin-left:75px;
+  margin-top:65px;
 }
 
 #hero-illustration {
