@@ -114,9 +114,20 @@ header {
   width:100%;
 }
 
+#hero-banner {
+  padding:175px 90px;
+}
+
+.company-form {
+  text-align: left;
+}
+
+/* Atoms */
+
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
   color: #2E3038;
+  font-weight: 700;
 }
 
 h4 {
@@ -125,17 +136,28 @@ h4 {
   color: #2E3038;
 }
 
+h1 {
+  font-size: 60px;
+  text-align: left;
+  line-height: 60px;
+  margin-bottom:20px;
+}
+
 .bold {
   font-weight: 700;
   color: #2E3038;
+}
+
+p {
+  font-size: 16px;
+  line-height: 19px;
+  margin:10px;
 }
 
 .emdash {
   color: #60F4D8;
   font-weight: 700;
 }
-
-/* buttons */
 
 .tertiary-button {
   border: 1px solid #8B92AB;
@@ -144,7 +166,7 @@ h4 {
   float:right;
   padding: 0px 16px 2px 16px;
   margin-right:75px;
-  margin-top:-90px;
+  margin-top:-75px;
 }
 
 .tertiary-button a {
@@ -156,6 +178,10 @@ h4 {
 
 .tertiary-button a:hover {
 
+}
+
+label {
+  display: none;
 }
 
 /* Company Name form */
@@ -215,13 +241,15 @@ svg {
 #header-logo {
   width: 138px;
   height: 45.79;
-  margin-left:75px;
-  margin-top:65px;
+  margin-left:55px;
+  margin-top:45px;
 }
 
 #hero-illustration {
-  width: 467;
+  width: 467px;
   height: 310px;
+  float:left;
+  padding-right:50px;
 }
 
 
