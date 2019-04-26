@@ -142,6 +142,22 @@ h4 {
   color: #ffffff;
 }
 
+/*SVG resizing */
+svg {
+  width: 23px;
+  height: 11px;
+}
+
+#header-logo {
+  width: 138px;
+  height: 45.79;
+}
+
+#hero-illustration {
+  width: 467;
+  height: 310px;
+}
+
 
 /*Carousel - borrowng from Jon Ander Perez on CodePen and adjusting to fit in this homepage */
 .carrousel {
