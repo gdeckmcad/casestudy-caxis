@@ -115,11 +115,17 @@ header {
 }
 
 #hero-banner {
-  padding:175px 90px;
+
 }
 
 .company-form {
   text-align: left;
+  padding-top:220px;
+  padding-right:75px;
+}
+
+.scroll {
+  clear: both;
 }
 
 /* Atoms */
@@ -140,7 +146,8 @@ h1 {
   font-size: 60px;
   text-align: left;
   line-height: 60px;
-  margin-bottom:20px;
+  margin-bottom:18px;
+  margin-top:0;
 }
 
 .bold {
@@ -151,7 +158,6 @@ h1 {
 p {
   font-size: 16px;
   line-height: 19px;
-  margin:10px;
 }
 
 .emdash {
@@ -179,12 +185,64 @@ p {
 .tertiary-button a:hover {
 
 }
+/* Company Name form */
 
-label {
+.name-check {
+  padding-top:20px;
+  color: #C5CADA;
+}
+
+.name-check input {
+  height: 20px;
+  border: 1px solid #D6DADF;
+  border-radius: 50px;
+  padding: 20px 0px;
+  padding-left:20px;
+  width: 40%;
+}
+
+input::placeholder {
+    color: #C5CADA;
+}
+
+.name-check label {
   display: none;
 }
 
-/* Company Name form */
+.name-check input:focus {
+  outline: none;
+}
+
+.name-check .btn-primary {
+  z-index: 1;
+  border: none;
+  background-color: #FF4A5A;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 22px 20px;
+  border-radius: 50px;
+  margin-left:-170px;
+
+}
+
+.name-check .btn-primary:hover .icon{
+  padding-left:7px;
+}
+
+
+.byline {
+  font-size: 14px;
+  padding-left:660px;
+  font-style: italic;
+}
+
+.byline li{
+  color: #FF4A5A;
+}
+
+.byline li span {
+  color: #8B92AB;
+}
 
 /* main nav */
 
@@ -246,10 +304,12 @@ svg {
 }
 
 #hero-illustration {
-  width: 467px;
-  height: 310px;
+  width: 559px;
+  height: 371px;
   float:left;
-  padding-right:50px;
+  padding-right:115px;
+  padding: 200px 0px;
+  padding-left:65px;
 }
 
 
