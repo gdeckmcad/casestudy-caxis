@@ -114,10 +114,6 @@ header {
   width:100%;
 }
 
-#hero-banner {
-
-}
-
 .company-form {
   text-align: left;
   padding-top:220px;
@@ -166,11 +162,14 @@ p {
 }
 
 blockquote {
-  margin-top:400px;
+  margin-top:-170px;
 }
 
 blockquote p{
-  width: 45%;
+  margin: 0 auto;
+  margin-bottom:50px;
+  text-align:left;
+  width: 35%;
   font-size: 46px;
   font-family: 'Playfair Display', serif;
   color: #2E3038;
@@ -298,6 +297,29 @@ input::placeholder {
 
 }
 
+/* Shapes */
+
+.shapes .rect {
+  width: 211px;
+  height: 147px;
+  background-color:#f2f2f2;
+  top: 0;
+  right:0;
+  margin-top:100px;
+  margin-left:325px;
+  transform-origin: 100% 0;
+}
+
+.shapes .arc {
+  width: 210px;
+  height: 368px;
+  border-radius: 184px 0 0 184px;
+  background-color:#f2f2f2;
+  margin-left:115px;
+  margin-top:-147px;
+  transform-origin: 100% 0;
+}
+
 
 /* cursor highlight selected color */
 ::selection {
@@ -329,6 +351,24 @@ svg {
   padding-right:115px;
   padding: 200px 0px;
   padding-left:65px;
+}
+
+.quote-left svg{
+  float:left;
+  width: 51px;
+  height: 40px;
+  margin-top:-200px;
+  margin-left:320px;
+
+}
+
+.quote-right svg{
+  float:right;
+  width: 51px;
+  height: 40px;
+  margin-right:470px;
+  margin-top:-60px;
+
 }
 
 
