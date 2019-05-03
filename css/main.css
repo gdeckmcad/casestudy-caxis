@@ -128,6 +128,30 @@ header {
   color: #FF4A5A;
 }
 
+#why {
+  margin-top:300px;
+  padding-left:300px;
+
+}
+
+.why-left {
+  margin-left:100px;
+  text-align: left;
+  float: left;
+  width: 25%;
+  padding-right:100px;
+}
+
+.why-right {
+  text-align:left;
+  width: 25%;
+  float:left;
+}
+
+#needs {
+  clear: both;
+}
+
 
 /* Atoms */
 
@@ -149,6 +173,12 @@ h1 {
   line-height: 60px;
   margin-bottom:18px;
   margin-top:0;
+}
+
+h2 {
+  font-size: 64px;
+  text-align: center;
+  line-height: 64px;
 }
 
 .bold {
@@ -369,6 +399,12 @@ svg {
   margin-right:470px;
   margin-top:-60px;
 
+}
+
+.why-illustration svg {
+  width: 224px;
+  height: 640px;
+  float:right;
 }
 
 
