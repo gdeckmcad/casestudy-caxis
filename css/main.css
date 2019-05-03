@@ -102,6 +102,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Page structure and sections */
 body {
   font-family: 'Muli', sans-serif;
   color: #8B92AB;
@@ -124,13 +125,10 @@ header {
   clear: both;
 }
 
-.fas{
-  color: #FF4A5A;
-}
-
 #why {
   margin-top:300px;
   padding-left:300px;
+  padding-bottom:170px;
 
 }
 
@@ -149,7 +147,27 @@ header {
 }
 
 #needs {
+  text-align: left;
   clear: both;
+  margin-top:200px;
+  padding-top:100px;
+  padding-left:100px;
+  padding-bottom:120px;
+  padding-right:120px;
+  background-color: #2E3038;
+  border-radius: 0 0 160px 0;
+  width: 900px;
+  height:350px;
+}
+
+#needs .text {
+  width: 340px;
+  float: left;
+}
+
+
+#needs p {
+  line-height: 24px;
 }
 
 
@@ -159,12 +177,6 @@ h1, h2, h3 {
   font-family: 'Playfair Display', serif;
   color: #2E3038;
   font-weight: 700;
-}
-
-h4 {
-  font-family: 'Muli', sans-serif;
-  font-weight: 900;
-  color: #2E3038;
 }
 
 h1 {
@@ -181,14 +193,23 @@ h2 {
   line-height: 64px;
 }
 
-.bold {
-  font-weight: 700;
+h3 {
+  font-size: 48px;
+  line-height: 48px;
+  color: #FF4A5A;
+  margin-bottom:15px;
+}
+
+h4 {
+  font-family: 'Muli', sans-serif;
+  font-weight: 900;
   color: #2E3038;
 }
 
 p {
   font-size: 16px;
   line-height: 19px;
+  font-weight: 400;
 }
 
 blockquote {
@@ -205,6 +226,12 @@ blockquote p{
   color: #2E3038;
   font-weight: 700;
   line-height: 49px;
+}
+
+
+.bold {
+  font-weight: 700;
+  color: #2E3038;
 }
 
 .emdash {
@@ -233,6 +260,65 @@ blockquote p{
 .tertiary-button a:hover {
 
 }
+
+.btn-primary {
+  z-index: 1;
+  border: none;
+  background-color: #FF4A5A;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 22px 20px;
+  border-radius: 50px;
+
+}
+
+.btn-primary:hover .icon{
+  padding-left:7px;
+}
+
+.btn-primary .fas {
+  color: #ffffff;
+}
+
+.fas{
+  color: #FF4A5A;
+}
+
+/* main nav */
+
+#main-nav {
+  float: right;
+  margin-right: 75px;
+  margin-top:-50px;
+}
+
+#main-nav ol {
+  list-style: none;
+}
+
+#main-nav li {
+  float: left;
+  padding-left:38px;
+}
+
+#main-nav ol li a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #8B92AB;
+  font-family: 'Muli', sans-serif;
+
+}
+
+#main-nav .selected {
+  color: #2E3038;
+
+}
+
+#main-nav ol li a:hover {
+
+}
+
 /* Company Name form */
 
 .name-check {
@@ -292,40 +378,6 @@ input::placeholder {
   color: #8B92AB;
 }
 
-/* main nav */
-
-#main-nav {
-  float: right;
-  margin-right: 75px;
-  margin-top:-50px;
-}
-
-#main-nav ol {
-  list-style: none;
-}
-
-#main-nav li {
-  float: left;
-  padding-left:38px;
-}
-
-#main-nav ol li a {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 16px;
-  color: #8B92AB;
-  font-family: 'Muli', sans-serif;
-
-}
-
-#main-nav .selected {
-  color: #2E3038;
-
-}
-
-#main-nav ol li a:hover {
-
-}
 
 /* Shapes */
 
@@ -407,8 +459,20 @@ svg {
   float:right;
 }
 
+#needs .needs-svg {
+  float:left;
+  width: 586px;
+  height: 608px;
+  margin-top: -125px;
+  margin-left:-70px;
+}
+
 
 /*Carousel - borrowng from Jon Ander Perez on CodePen and adjusting to fit in this homepage */
+.easy-slider {
+  clear: both;
+}
+
 .carrousel {
   background: #ffffff;
   text-align: center;
