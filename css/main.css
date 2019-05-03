@@ -128,6 +128,11 @@ header {
   clear: both;
 }
 
+.fas{
+  color: #FF4A5A;
+}
+
+
 /* Atoms */
 
 h1, h2, h3 {
@@ -160,10 +165,24 @@ p {
   line-height: 19px;
 }
 
+blockquote {
+  margin-top:400px;
+}
+
+blockquote p{
+  width: 45%;
+  font-size: 46px;
+  font-family: 'Playfair Display', serif;
+  color: #2E3038;
+  font-weight: 700;
+  line-height: 49px;
+}
+
 .emdash {
   color: #60F4D8;
   font-weight: 700;
 }
+
 
 .tertiary-button {
   border: 1px solid #8B92AB;
@@ -457,13 +476,6 @@ svg {
      margin-right: 0.25em;
   }
 }
-
-
-
-
-
-
-
 
 
 
