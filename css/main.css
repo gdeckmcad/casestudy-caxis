@@ -606,7 +606,7 @@ input::placeholder {
   margin-left:-70px;
 }
 
-.name-slide-svg {
+.slide-svg {
   width: 680px;
   height: 383.98px;
   margin: 0 auto;
@@ -634,7 +634,7 @@ input::placeholder {
   background: #ffffff;
   text-align: center;
   padding: 4em 0;
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;
   margin-top:0;
   padding-top:0;
@@ -642,7 +642,7 @@ input::placeholder {
   overflow: hidden;
 }
 .carrousel .slides {
-  width: 400%;
+  width: 500%;
   left: 0;
   padding-left: 0;
   padding-top: 1em;
@@ -656,7 +656,7 @@ input::placeholder {
   transition: transform .5s;
 }
 .carrousel .slides li {
-  width: 25%;
+  width: 20%;
   position: relative;
   float: left;
 }
@@ -694,9 +694,9 @@ input::placeholder {
     /* Absolute positioning*/
     position: absolute;
     /* Abosulte positioning*/
-    width: 104px; /*This width  is the addition of the width of all the navigations dots - So in this case is   104 because the navigation dots are 26px (width:10px and 6px marginleft + 6 px marginright) and there are 4 dots so 4x26=104 */
-    left: 7%; /*Centering de element*/
-    margin-left: -52px; /*adjusting the centering by applying a negative margin of half of the width*/
+    width: 130px; /*This width  is the addition of the width of all the navigations dots - So in this case is   104 because the navigation dots are 26px (width:10px and 6px marginleft + 6 px marginright) and there are 4 dots so 4x26=104 */
+    left: 15%; /*Centering de element*/
+    margin-left: -65px; /*adjusting the centering by applying a negative margin of half of the width*/
     top:30%;
 }
 .carrousel input {
@@ -708,7 +708,7 @@ input::placeholder {
   height: 16px;
   width: 16px;
   -webkit-border-radius: 50%;
-background-color: #E3E3E3;
+  background-color: #E3E3E3;
   font-size: 0;
   margin-bottom:20px;
 }
@@ -718,13 +718,17 @@ background-color: #E3E3E3;
   transform: translateX(0%);
 }
 #radio-2:checked ~ .slides {
-  transform: translateX(-25%);
+  transform: translateX(-20%);
 }
 #radio-3:checked ~ .slides {
-  transform: translateX(-50%);
+  transform: translateX(-40%);
 }
 #radio-4:checked ~ .slides {
-  transform: translateX(-75%);
+  transform: translateX(-60%);
+}
+
+#radio-5:checked ~ .slides {
+  transform: translateX(-80%);
 }
 
 
@@ -735,32 +739,23 @@ background-color: #E3E3E3;
 .carrousel #radio-1:checked ~ .slidesNavigation label#dotForRadio-1,
 .carrousel #radio-2:checked ~ .slidesNavigation label#dotForRadio-2,
 .carrousel #radio-3:checked ~ .slidesNavigation label#dotForRadio-3,
-.carrousel #radio-4:checked ~ .slidesNavigation label#dotForRadio-4 {
+.carrousel #radio-4:checked ~ .slidesNavigation label#dotForRadio-4,
+.carrousel #radio-5:checked ~ .slidesNavigation label#dotForRadio-5 {
   background: #FF495A;
   height: 16px;
   width: 40px;
   border-radius: 50px;
 }
 
-@media  (max-width: 796px) {
-  .carrousel{
-    height: 8.5em;
-  }
+/* hover on dot */
+.carrousel #radio-1:hover ~ .slidesNavigation label#dotForRadio-1,
+.carrousel #radio-2:hover ~ .slidesNavigation label#dotForRadio-2,
+.carrousel #radio-3:hover ~ .slidesNavigation label#dotForRadio-3,
+.carrousel #radio-4:hover ~ .slidesNavigation label#dotForRadio-4,
+.carrousel #radio-5:hover ~ .slidesNavigation label#dotForRadio-5{
+  background: #FF8F99;
 }
-@media  (max-width: 480px) {
-  .carrousel li p {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-  }
-  .carrousel li q {
-      font-size: 1em;
-  }
-  .carrousel li img {
-     width:2em;
-     margin-left: -1em;
-     margin-right: 0.25em;
-  }
-}
+
 
 
 
