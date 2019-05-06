@@ -126,23 +126,41 @@ header {
 }
 
 #why {
-  margin-top:300px;
-  padding-left:300px;
+  margin-top:275px;
+  padding-left:200px;
   padding-bottom:170px;
+}
 
+.why-svg {
+  float:left;
+  height: 32px;
+  width: 32px;
+  padding-right:10px;
+}
+
+.why-section-text p {
+  padding-left: 40px;
+  padding-top:0px;
+  margin-top:-15px;
+
+}
+
+.why-container {
+  padding-bottom:30px;
+  clear: both;
 }
 
 .why-left {
   margin-left:100px;
   text-align: left;
   float: left;
-  width: 25%;
-  padding-right:100px;
+  width: 28%;
+  padding-right:75px;
 }
 
 .why-right {
   text-align:left;
-  width: 25%;
+  width: 28%;
   float:left;
 }
 
@@ -165,6 +183,21 @@ header {
 
 #needs p {
   line-height: 24px;
+}
+
+#bottom {
+  background-color: #FF4A5A;
+}
+
+#bottom h3 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 145px;
+}
+
+#bottom p {
+  color: #2E3038;
 }
 
 
@@ -201,6 +234,7 @@ h4 {
   font-family: 'Muli', sans-serif;
   font-weight: 900;
   color: #2E3038;
+  font-size: 18px;
 }
 
 p {
@@ -355,7 +389,9 @@ blockquote p{
 
 }
 
-
+#main-nav ol li a:hover {
+  color: #2E3038;
+}
 
 
 /* Company Name form */
@@ -505,7 +541,6 @@ svg {
   margin-top: -125px;
   margin-left:-70px;
 }
-
 
 /*Carousel - borrowng from Jon Ander Perez on CodePen and adjusting to fit in this homepage */
 .easy-slider {
