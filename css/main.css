@@ -367,6 +367,7 @@ blockquote p{
   font-weight: 700;
   padding: 22px 20px;
   border-radius: 50px;
+  width:210px;
 
 }
 
@@ -387,6 +388,7 @@ blockquote p{
 
 .btn-primary .fas {
   color: #ffffff;
+  padding-left:10px;
 }
 
 .fas{
@@ -492,6 +494,7 @@ input::placeholder {
   background-color: #D63E4D;
   border:none;
   height:22px;
+  color:#ffffff;
 }
 
 #bottom input::placeholder {
